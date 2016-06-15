@@ -1,1 +1,1 @@
-requires 'Dancer2';
+requires 'Dancer';

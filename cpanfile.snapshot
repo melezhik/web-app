@@ -152,6 +152,124 @@ DISTRIBUTIONS
       Module::Build 0.38
       URI::Escape 0
       perl 5.008001
+  Dancer-1.3202
+    pathname: B/BI/BIGPRESH/Dancer-1.3202.tar.gz
+    provides:
+      Dancer 1.3202
+      Dancer::App 1.3202
+      Dancer::Config 1.3202
+      Dancer::Config::Object 1.3202
+      Dancer::Continuation 1.3202
+      Dancer::Continuation::Halted 1.3202
+      Dancer::Continuation::Route 1.3202
+      Dancer::Continuation::Route::ErrorSent 1.3202
+      Dancer::Continuation::Route::FileSent 1.3202
+      Dancer::Continuation::Route::Forwarded 1.3202
+      Dancer::Continuation::Route::Passed 1.3202
+      Dancer::Continuation::Route::Templated 1.3202
+      Dancer::Cookie 1.3202
+      Dancer::Cookies 1.3202
+      Dancer::Deprecation 1.3202
+      Dancer::Engine 1.3202
+      Dancer::Error 1.3202
+      Dancer::Exception 1.3202
+      Dancer::Exception::Base 1.3202
+      Dancer::Factory::Hook 1.3202
+      Dancer::FileUtils 1.3202
+      Dancer::GetOpt 1.3202
+      Dancer::HTTP 1.3202
+      Dancer::Handler 1.3202
+      Dancer::Handler::Debug 1.3202
+      Dancer::Handler::PSGI 1.3202
+      Dancer::Handler::Standalone 1.3202
+      Dancer::Hook 1.3202
+      Dancer::Hook::Properties 1.3202
+      Dancer::Logger 1.3202
+      Dancer::Logger::Abstract 1.3202
+      Dancer::Logger::Capture 1.3202
+      Dancer::Logger::Capture::Trap 1.3202
+      Dancer::Logger::Console 1.3202
+      Dancer::Logger::Diag 1.3202
+      Dancer::Logger::File 1.3202
+      Dancer::Logger::Note 1.3202
+      Dancer::Logger::Null 1.3202
+      Dancer::MIME 1.3202
+      Dancer::ModuleLoader 1.3202
+      Dancer::Object 1.3202
+      Dancer::Object::Singleton 1.3202
+      Dancer::Plugin 1.3202
+      Dancer::Plugin::Ajax 1.3202
+      Dancer::Renderer 1.3202
+      Dancer::Request 1.3202
+      Dancer::Request::Upload 1.3202
+      Dancer::Response 1.3202
+      Dancer::Route 1.3202
+      Dancer::Route::Cache 1.3202
+      Dancer::Route::Registry 1.3202
+      Dancer::Serializer 1.3202
+      Dancer::Serializer::Abstract 1.3202
+      Dancer::Serializer::Dumper 1.3202
+      Dancer::Serializer::JSON 1.3202
+      Dancer::Serializer::JSONP 1.3202
+      Dancer::Serializer::Mutable 1.3202
+      Dancer::Serializer::XML 1.3202
+      Dancer::Serializer::YAML 1.3202
+      Dancer::Session 1.3202
+      Dancer::Session::Abstract 1.3202
+      Dancer::Session::Simple 1.3202
+      Dancer::Session::YAML 1.3202
+      Dancer::SharedData 1.3202
+      Dancer::Template 1.3202
+      Dancer::Template::Abstract 1.3202
+      Dancer::Template::Simple 1.3202
+      Dancer::Template::TemplateToolkit 1.3202
+      Dancer::Test 1.3202
+      Dancer::Timer 1.3202
+    requirements:
+      Carp 0
+      Cwd 0
+      Data::Dumper 0
+      Encode 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      File::Basename 0
+      File::Copy 0
+      File::Path 0
+      File::Spec 0
+      File::Spec::Functions 0
+      File::Temp 0
+      File::stat 0
+      FindBin 0
+      Getopt::Long 0
+      HTTP::Body 0
+      HTTP::Date 0
+      HTTP::Headers 0
+      HTTP::Server::Simple::PSGI 0
+      Hash::Merge::Simple 0
+      IO::File 0
+      LWP::UserAgent 0
+      MIME::Types 0
+      Module::Runtime 0
+      POSIX 0
+      Pod::Usage 0
+      Scalar::Util 0
+      Test::Builder 0
+      Test::More 0
+      Time::HiRes 0
+      Try::Tiny 0
+      URI 0
+      URI::Escape 0
+      base 0
+      bytes 0
+      constant 0
+      lib 0
+      overload 0
+      parent 0
+      perl 5.006
+      strict 0
+      vars 0
+      warnings 0
   Dancer2-0.200000
     pathname: X/XS/XSAWYERX/Dancer2-0.200000.tar.gz
     provides:
@@ -348,6 +466,19 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 6.17
       perl 5.006001
+  File-Listing-6.04
+    pathname: G/GA/GAAS/File-Listing-6.04.tar.gz
+    provides:
+      File::Listing 6.04
+      File::Listing::apache 6.04
+      File::Listing::dosftp 6.04
+      File::Listing::netware 6.04
+      File::Listing::unix 6.04
+      File::Listing::vms 6.04
+    requirements:
+      ExtUtils::MakeMaker 0
+      HTTP::Date 6
+      perl 5.006002
   File-ShareDir-1.102
     pathname: R/RE/REHSACK/File-ShareDir-1.102.tar.gz
     provides:
@@ -430,6 +561,33 @@ DISTRIBUTIONS
       File::Temp 0.14
       HTTP::Headers 0
       IO::File 1.14
+  HTTP-Cookies-6.01
+    pathname: G/GA/GAAS/HTTP-Cookies-6.01.tar.gz
+    provides:
+      HTTP::Cookies 6.01
+      HTTP::Cookies::Microsoft 6.00
+      HTTP::Cookies::Netscape 6.00
+    requirements:
+      ExtUtils::MakeMaker 0
+      HTTP::Date 6
+      HTTP::Headers::Util 6
+      Time::Local 0
+      perl 5.008001
+  HTTP-Daemon-6.01
+    pathname: G/GA/GAAS/HTTP-Daemon-6.01.tar.gz
+    provides:
+      HTTP::Daemon 6.01
+      HTTP::Daemon::ClientConn 6.01
+    requirements:
+      ExtUtils::MakeMaker 0
+      HTTP::Date 6
+      HTTP::Request 6
+      HTTP::Response 6
+      HTTP::Status 6
+      IO::Socket 0
+      LWP::MediaTypes 6
+      Sys::Hostname 0
+      perl 5.008001
   HTTP-Date-6.02
     pathname: G/GA/GAAS/HTTP-Date-6.02.tar.gz
     provides:
@@ -479,6 +637,35 @@ DISTRIBUTIONS
       MIME::QuotedPrint 0
       URI 1.10
       perl 5.008001
+  HTTP-Negotiate-6.01
+    pathname: G/GA/GAAS/HTTP-Negotiate-6.01.tar.gz
+    provides:
+      HTTP::Negotiate 6.01
+    requirements:
+      ExtUtils::MakeMaker 0
+      HTTP::Headers 6
+      perl 5.008001
+  HTTP-Server-Simple-0.51
+    pathname: B/BP/BPS/HTTP-Server-Simple-0.51.tar.gz
+    provides:
+      HTTP::Server::Simple 0.51
+      HTTP::Server::Simple::CGI undef
+      HTTP::Server::Simple::CGI::Environment undef
+    requirements:
+      CGI 0
+      ExtUtils::MakeMaker 6.36
+      Socket 1.94
+      Test::More 0
+  HTTP-Server-Simple-PSGI-0.16
+    pathname: M/MI/MIYAGAWA/HTTP-Server-Simple-PSGI-0.16.tar.gz
+    provides:
+      HTTP::Server::Simple::PSGI 0.16
+      HTTP::Server::Simple::PSGI::Writer 0.16
+      Plack::Handler::HTTP::Server::Simple 0.16
+      Plack::Handler::HTTP::Server::Simple::PSGIServer 0.16
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      HTTP::Server::Simple 0.42
   HTTP-Tiny-0.058
     pathname: D/DA/DAGOLDEN/HTTP-Tiny-0.058.tar.gz
     provides:
@@ -566,6 +753,18 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5.006002
+  MIME-Types-2.13
+    pathname: M/MA/MARKOV/MIME-Types-2.13.tar.gz
+    provides:
+      MIME::Type 2.13
+      MIME::Types 2.13
+      MojoX::MIME::Types 2.13
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Spec 0
+      List::Util 0
+      Test::More 0.47
   Module-Implementation-0.09
     pathname: D/DR/DROLSKY/Module-Implementation-0.09.tar.gz
     provides:
@@ -634,6 +833,21 @@ DISTRIBUTIONS
       Role::Tiny 2
       Scalar::Util 0
       perl 5.006
+  Net-HTTP-6.09
+    pathname: E/ET/ETHER/Net-HTTP-6.09.tar.gz
+    provides:
+      Net::HTTP 6.09
+      Net::HTTP::Methods 6.09
+      Net::HTTP::NB 6.09
+      Net::HTTPS 6.09
+    requirements:
+      Compress::Raw::Zlib 0
+      ExtUtils::MakeMaker 0
+      IO::Select 0
+      IO::Socket::INET 0
+      IO::Uncompress::Gunzip 0
+      URI 0
+      perl 5.006002
   POSIX-strftime-Compiler-0.41
     pathname: K/KA/KAZEBURO/POSIX-strftime-Compiler-0.41.tar.gz
     provides:
@@ -1196,3 +1410,72 @@ DISTRIBUTIONS
       parent 0
       perl 5.008001
       utf8 0
+  WWW-RobotRules-6.02
+    pathname: G/GA/GAAS/WWW-RobotRules-6.02.tar.gz
+    provides:
+      WWW::RobotRules 6.02
+      WWW::RobotRules::AnyDBM_File 6.00
+      WWW::RobotRules::InCore 6.02
+    requirements:
+      AnyDBM_File 0
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      URI 1.10
+      perl 5.008001
+  libwww-perl-6.15
+    pathname: E/ET/ETHER/libwww-perl-6.15.tar.gz
+    provides:
+      LWP 6.15
+      LWP::Authen::Basic undef
+      LWP::Authen::Digest undef
+      LWP::Authen::Ntlm 6.15
+      LWP::ConnCache 6.15
+      LWP::Debug undef
+      LWP::DebugFile undef
+      LWP::MemberMixin undef
+      LWP::Protocol 6.15
+      LWP::Protocol::GHTTP undef
+      LWP::Protocol::MyFTP undef
+      LWP::Protocol::cpan undef
+      LWP::Protocol::data undef
+      LWP::Protocol::file undef
+      LWP::Protocol::ftp undef
+      LWP::Protocol::gopher undef
+      LWP::Protocol::http undef
+      LWP::Protocol::http::Socket undef
+      LWP::Protocol::http::SocketMethods undef
+      LWP::Protocol::loopback undef
+      LWP::Protocol::mailto undef
+      LWP::Protocol::nntp undef
+      LWP::Protocol::nogo undef
+      LWP::RobotUA 6.15
+      LWP::Simple 6.15
+      LWP::UserAgent 6.15
+    requirements:
+      Digest::MD5 0
+      Encode 2.12
+      Encode::Locale 0
+      ExtUtils::MakeMaker 0
+      File::Copy 0
+      File::Listing 6
+      Getopt::Long 0
+      HTML::Entities 0
+      HTML::HeadParser 0
+      HTTP::Cookies 6
+      HTTP::Daemon 6
+      HTTP::Date 6
+      HTTP::Negotiate 6
+      HTTP::Request 6
+      HTTP::Request::Common 6
+      HTTP::Response 6
+      HTTP::Status 6
+      IO::Select 0
+      IO::Socket 0
+      LWP::MediaTypes 6
+      MIME::Base64 2.1
+      Net::FTP 2.58
+      Net::HTTP 6.07
+      URI 1.10
+      URI::Escape 0
+      WWW::RobotRules 6
+      perl 5.008001

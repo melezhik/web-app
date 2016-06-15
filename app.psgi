@@ -1,4 +1,4 @@
-use Dancer2;
+use Dancer;
 get '/' => sub { "Hello World" };
 dance;   
 
